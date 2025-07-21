@@ -47,4 +47,4 @@ jobs:
           manifests: |
             02-kube-news/k8s/deployment.yaml
           images: |
-            fabriciosveronez/kube-news-maratona:${{ github.run_number }}
+            davidlimacd/kube-news-maratona:${{ github.run_number }}
